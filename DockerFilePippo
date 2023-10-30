@@ -1,5 +1,3 @@
-# Usa un'immagine di base
 FROM ubuntu:20.04
+CMD ["echo", "Hello, World!"]
 
-# Esegui l'istruzione "echo" durante la creazione dell'immagine
-RUN echo "Hello, World!"
