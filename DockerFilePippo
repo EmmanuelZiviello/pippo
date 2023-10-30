@@ -1,0 +1,5 @@
+# Usa un'immagine di base
+FROM ubuntu:20.04
+
+# Esegui l'istruzione "echo" durante la creazione dell'immagine
+RUN echo "Hello, World!"
